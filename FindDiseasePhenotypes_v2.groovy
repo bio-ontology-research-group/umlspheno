@@ -175,7 +175,7 @@ println "finished with par1 of parsing\n"
 }
 
 parseOntologies(IRI.create("http://purl.obolibrary.org/obo/mp.owl"))
-parseOntologies(new File("./icdomim_robert.owl"))
+parseOntologies(new File("./icdomim.owl"))
 parseOntologies(IRI.create("http://purl.obolibrary.org/obo/hp.owl"))
 
 BooleanQuery.setMaxClauseCount(100000000)
